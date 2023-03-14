@@ -56,10 +56,6 @@ function AsideNavBar() {
             </a>
 
 
-
-
-
-
       <Routes>
           <Route path="/HTML"  element = {   <RouteRefrenceHTML/>   } />
           <Route path="/CSS"  element = {   <RouteRefrenceCss/>   } />
@@ -72,15 +68,9 @@ function AsideNavBar() {
 
 
               
-            
-            
-
-              
-            
-              
 
 {/* aqui termina mi cambio */}
-{/* voy a aplicarle estilo al componente de refrence
+{/* voy a aplicarle estilo al componente de refrencee
  */}
 
 
@@ -94,6 +84,16 @@ function AsideNavBar() {
 }
 
 export default AsideNavBar;
+
+
+
+
+              
+            
+            
+
+              
+            
     
     
     
