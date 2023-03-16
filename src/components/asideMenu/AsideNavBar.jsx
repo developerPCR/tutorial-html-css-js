@@ -1,6 +1,7 @@
 import React from "react";
 import DropdownMenu from "./DropdownMenu";
 
+<<<<<<< HEAD
 import { Route } from "react-router-dom"; //esto lo escribí yo y es para hacer las rutas
 import { RouteRefrenceHTML } from "./RouteRefrenceHTML"; //importo mi componente HTML
 import { Routes } from "react-router-dom";//esto lo escribi yo tambien 
@@ -14,11 +15,16 @@ function AsideNavBar() {
 
   return (
     <>
+=======
+function AsideNavBar() {
+  return (
+>>>>>>> main
     <nav className="navbar">
       <ul className="navbar-nav">
         
         <li className="nav-item">
           <DropdownMenu title="Dropdown">
+<<<<<<< HEAD
               <a href="" className="dropdown-link">
                 link 1
               </a>
@@ -27,10 +33,21 @@ function AsideNavBar() {
               Link 2
             </a>
             <a href="" className="dropdown-link">
+=======
+              <a href="/home" className="dropdown-link">
+                link 1
+              </a>
+              
+            <a href="/" className="dropdown-link">
+              Link 2
+            </a>
+            <a href="/" className="dropdown-link">
+>>>>>>> main
               Link 3
             </a>
           </DropdownMenu>
         </li>
+<<<<<<< HEAD
     
     
 
@@ -80,10 +97,15 @@ function AsideNavBar() {
     
     </>
 
+=======
+      </ul>
+    </nav>
+>>>>>>> main
   );
 }
 
 export default AsideNavBar;
+<<<<<<< HEAD
 
 //
 
@@ -101,3 +123,5 @@ export default AsideNavBar;
     
     
     
+=======
+>>>>>>> main

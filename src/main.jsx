@@ -6,7 +6,11 @@ import AsideNavBar from './components/asideMenu/AsideNavBar'
 import NavigationBar from './components/Navigation/NavigationBar'
 import './index.css'
 
+
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
+
 
   <BrowserRouter>
   
@@ -14,10 +18,14 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     {<NavigationBar/>}
     <AsideNavBar/>
     <App />
+
   </React.StrictMode>
   
   
   </BrowserRouter>
   
 )
+
+
+
 
